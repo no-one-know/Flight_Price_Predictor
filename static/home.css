@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+}
+
+.header{
+    block-size: 100px;
+    background-color: rgba(32, 131, 127, 0.532);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.flash{
+    text-align: center;
+    margin-left: 100px;
+    color: rgb(226, 14, 14);
+    margin-right: 100px;
+}
+
+.main{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footer{
+    margin-top: 80px;
+    block-size: 100px;
+    background-color: rgba(0, 0, 0, 0.97);
+    color: rgb(97, 144, 201);
+    text-align: center;
+    padding-top: 30px;
+    font-size: large;
+    position: fixed-bottom;
+}
