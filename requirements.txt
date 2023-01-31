@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+seaborn
+flask
+datetime
+joblib
+gzip
+warnings
+scikit-learn
