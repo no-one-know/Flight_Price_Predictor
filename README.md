@@ -3,6 +3,11 @@
 <p>I have extensively used the <b>datetime</b> library to extract the features from the datetime object of the dataset.</p>
 <p><b>RandomForest</b> model give the accuracy of 82%.</p>
 <p>Developed a Web application using <b>flask</b>.</p>
-![User_Input](https://drive.google.com/file/d/1odXgpBbLZUnMC06QOKQeNaS3b-HNkHzS/view?usp=share_link)
-<br>
-![Output](https://drive.google.com/file/d/1Tw7tudohvvDAwdWWgDSfxYfif4G2lOaH/view?usp=share_link)
+
+<b>USER INPUT</b>
+
+![Screenshot (8)](https://user-images.githubusercontent.com/85546544/232225817-e16bf8d4-c1f7-4c52-8c86-b7bee6be7a05.png)
+
+<b>OUTPUT</b>
+
+![Screenshot (9)](https://user-images.githubusercontent.com/85546544/232225840-e5b713ef-9739-402e-b378-de1d74182fbc.png)
