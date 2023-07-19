@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request,flash,redirect,url_for
-import joblib
+import pickle
 import numpy as np
 from datetime import datetime
 
@@ -8,10 +8,12 @@ app=Flask(__name__)
 app.config['SECRET_KEY']="669c717bc7904470b2f188baf8b464a5"
 
 # Load the  regression model in the app
-regression_model=joblib.load('regression_model.gz')
+with open('models/model.pkl', 'rb') as f:
+    regression_model = pickle.load(f)
 
 # Load the standardisation model in the app
-std_model=joblib.load('standerd_model.gz')
+with open('models/std.pkl', 'rb') as f:
+    std_model = pickle.load(f)
 
 @app.route("/",methods=['get','post'])
 def home():
